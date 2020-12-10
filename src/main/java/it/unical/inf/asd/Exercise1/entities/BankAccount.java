@@ -16,6 +16,9 @@ public class BankAccount {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @Column(name = "BANK_Name")
+    private Long number;
+
     @Column(name = "BANK_NUMBER")
     private Long number;
 
